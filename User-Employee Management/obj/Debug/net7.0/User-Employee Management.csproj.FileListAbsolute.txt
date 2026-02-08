@@ -1,0 +1,39 @@
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\appsettings.json
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\User-Employee Management.exe
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\User-Employee Management.deps.json
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\User-Employee Management.runtimeconfig.json
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\User-Employee Management.dll
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\User-Employee Management.pdb
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Data.SqlClient.dll
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Data.SqlClient.dll
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\User-Employee Management.csproj.AssemblyReference.cache
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\User-Employee Management.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\User-Employee Management.AssemblyInfoInputs.cache
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\User-Employee Management.AssemblyInfo.cs
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\User-Employee Management.csproj.CoreCompileInputs.cache
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\User-Employee Management.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\User-Employee Management.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\staticwebassets\msbuild.User-Employee Management.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\staticwebassets\msbuild.build.User-Employee Management.props
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.User-Employee Management.props
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.User-Employee Management.props
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\scopedcss\bundle\User-Employee Management.styles.css
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\User-Employee Management.csproj.CopyComplete
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\User-Employee Management.dll
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\refint\User-Employee Management.dll
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\User-Employee Management.pdb
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\User-Employee Management.genruntimeconfig.cache
+C:\Users\kaurk\Learning\UserEmployee Management\User-Employee Management\User-Employee Management\obj\Debug\net7.0\ref\User-Employee Management.dll
