@@ -19,7 +19,7 @@ namespace User_Employee_Management.BAL
         {
             if (string.IsNullOrEmpty(employeeDetails.EmployeeName))
             {
-                return "UserName is required";
+                return "EmployeeName is required";
             }
             if (string.IsNullOrEmpty(employeeDetails.Email))
             {
@@ -27,6 +27,29 @@ namespace User_Employee_Management.BAL
             }
             return employeeDAL.AddEmployee(employeeDetails);
         }
+
+        public string UpdateEmployee(EmployeeDetails employeeDetails)
+        {
+            if (string.IsNullOrEmpty(employeeDetails.EmployeeName))
+                return "EmployeeName is required";
+
+            if (string.IsNullOrEmpty(employeeDetails.Email))
+                return "Email is required";
+
+            return employeeDAL.UpdateEmployee(employeeDetails);
+        }
+
+
+        public EmployeeDetails GetEmployeeById(int employeeId)
+        {
+            return employeeDAL.GetEmployeeById(employeeId);
+        }
+
+        public string DeleteEmployee(int employeeId)
+        {
+            return employeeDAL.DeleteEmployee(employeeId);
+        }
+
 
     }
 }

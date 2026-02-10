@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using User_Employee_Management.BAL;
+using User_Employee_Management.DAL;
 using User_Employee_Management.DTO;
+using User_Employee_Management.EmployeeDTO;
 using User_Employee_Management.Models;
 using User_Employee_Management.NewFolder4;
 
@@ -33,6 +35,33 @@ namespace User_Employee_Management.Controllers
             employeeDetails.Department = employeeDTO.Department;
             employeeDetails.Salary = employeeDTO.Salary;
             return Ok(employeeBAL.AddEmployee(employeeDetails));
+        }
+
+        [HttpPut]
+        public IActionResult Update(UpdateEmployeeDTO employeeDTO)
+        {
+            EmployeeDetails employeeDetails = new EmployeeDetails();
+            employeeDetails.EmployeeId = employeeDTO.EmployeeId;
+            employeeDetails.EmployeeName = employeeDTO.EmployeeName;
+            employeeDetails.Email = employeeDTO.Email;
+            employeeDetails.ContactNumber = employeeDTO.ContactNumber;
+            employeeDetails.Gender = employeeDTO.Gender;
+            employeeDetails.Address = employeeDTO.Address;
+            employeeDetails.Department = employeeDTO.Department;
+            employeeDetails.Salary = employeeDTO.Salary;
+            employeeDetails.IsActive = employeeDTO.IsActive;
+            return Ok(employeeBAL.UpdateEmployee(employeeDetails));
+        }
+        [HttpGet("{EmployeeId}")]
+        public IActionResult GetEmployeeById(int EmployeeId)
+        {
+            return Ok(employeeBAL.GetEmployeeById(EmployeeId));
+        }
+
+        [HttpDelete]
+        public IActionResult DeleteEmployee(int EmployeeId)
+        {
+            return Ok(employeeBAL.DeleteEmployee(EmployeeId));
         }
 
     }

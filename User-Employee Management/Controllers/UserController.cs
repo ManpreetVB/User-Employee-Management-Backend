@@ -55,5 +55,12 @@ namespace User_Employee_Management.Controllers
         {
             return Ok(userBAL.DeleteUser(UserId));
         }
+
+        [HttpPost("ApproveReject")]
+        public IActionResult ApproveRejectUser(int UserId, int IsActive)
+        {
+            return Ok(userBAL.ApproveRejectUser(UserId, IsActive));
+        }
+
     }
 }

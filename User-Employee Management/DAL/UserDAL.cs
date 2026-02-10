@@ -252,5 +252,40 @@ namespace User_Employee_Management.DAL
             return response;
         }
 
+        public string ApproveRejectUser(int userId, int isActive)
+        {
+            string response = "";
+
+            try
+            {
+                using (SqlConnection con = new SqlConnection(_connection))
+                {
+                    SqlCommand cmd = new SqlCommand("sp_ApproveRejectUser", con);
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    cmd.Parameters.AddWithValue("@UserId", userId);
+                    cmd.Parameters.AddWithValue("@IsActive", isActive);
+
+                    SqlParameter outputParameter = new SqlParameter("@OutputMsg", SqlDbType.NVarChar, 100);
+                    outputParameter.Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add(outputParameter);
+
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+
+                    response = outputParameter.Value.ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                response = ex.Message;
+            }
+
+            return response;
+        }
+
+
+
+
     }
 }

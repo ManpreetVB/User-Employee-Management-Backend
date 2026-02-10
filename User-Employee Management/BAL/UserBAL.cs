@@ -61,5 +61,11 @@ namespace User_Employee_Management.BAL
 
             return userDAL.RegisterUser(userDetails);
         }
+
+        public string ApproveRejectUser(int userId, int isActive)
+        {
+            return userDAL.ApproveRejectUser(userId, isActive);
+        }
+
     }
 }
